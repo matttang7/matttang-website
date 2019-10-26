@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
 
-export default class Home extends Component {
+export default class Experience extends Component {
   render() {
     return (
         <section className="banner-area">
         <div className="container">
           <div className="row fullscreen align-items-center justify-content-between">
             <div className="col-lg-6 col-md-6 banner-left">
-              <h1>Matthew Tang</h1>
+              <h1>Experience</h1>
               <p>
-                I'm a student studying Computer Science and Statistics at the University of Illinois at Urbana-Champaign
+                National Science Foundation Research Experience for Undergraduates
               </p>
               <a href="#" className="primary-btn text-uppercase">discover now</a>
             </div>
