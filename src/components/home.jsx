@@ -9,9 +9,9 @@ export default class Home extends Component {
             <div className="col-lg-6 col-md-6 banner-left">
               <h1>Matthew Tang</h1>
               <p>
-                I'm a student studying Computer Science and Statistics at the University of Illinois at Urbana-Champaign
+                I'm a student studying Computer Science and Statistics at the University of Illinois at Urbana-Champaign.
+                This website contains some of the projects I've worked on.
               </p>
-              <a href="#" className="primary-btn text-uppercase">discover now</a>
             </div>
             <div className="col-lg-6 col-md-6 banner-right d-flex align-self-end">
               <img className="img-fluid" src="img/megumin.png" alt="" />

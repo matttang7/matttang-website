@@ -11,10 +11,10 @@ export default class Experience extends Component {
               <p>
                 National Science Foundation Research Experience for Undergraduates
               </p>
-              <a href="#" className="primary-btn text-uppercase">discover now</a>
+              <a href="https://arxiv.org/abs/1910.05786" className="primary-btn text-uppercase">discover now</a>
             </div>
             <div className="col-lg-6 col-md-6 banner-right d-flex align-self-end">
-              <img className="img-fluid" src="img/megumin.png" alt="" />
+              <img className="img-fluid" src="img/smsmap.jpg" alt="" />
             </div>
           </div>
         </div>					

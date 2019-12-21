@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
+import * as Scroll from 'react-scroll';
+import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 export default class Navbar extends Component {
+
   render() {
     return (
 
@@ -13,8 +16,17 @@ export default class Navbar extends Component {
         </button>
         <div className="collapse navbar-collapse" id="navbar">
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item ">
-              <a className="nav-link" href="/cs357/fa2019/syllabus/">Projects</a>
+          <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="experience"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Experience
+              </Link>
             </li>
             <li className="nav-item ">
               <a className="nav-link" href="/cs357/fa2019/lectures/">Experience</a>
