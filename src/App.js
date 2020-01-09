@@ -19,11 +19,6 @@ function App() {
           <Experience 
           id = "experience"
           ></Experience>
-          <Experience></Experience>
-          <Experience></Experience>
-          <Experience></Experience>
-          <Experience></Experience>
-          <Experience></Experience>
           <Projects></Projects>
           	</div>
       	</div>

@@ -29,7 +29,7 @@ export default class Navbar extends Component {
               </Link>
             </li>
             <li className="nav-item ">
-              <a className="nav-link" href="/cs357/fa2019/lectures/">Experience</a>
+              <a className="nav-link" href="img/nsf.jpg">Experience</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/cs357/fa2019/exams/">Links</a>
