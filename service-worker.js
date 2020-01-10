@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/matttang-website/precache-manifest.acc0384f1ff23a6ac5e4c993b4e9f322.js"
+  "/matttang-website/precache-manifest.71c0836c45c546ea4e064e377b477df9.js"
 );
 
 self.addEventListener('message', (event) => {
