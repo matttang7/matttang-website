@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Home from './components/home'
 import Projects from './components/projects'
@@ -9,8 +8,6 @@ import Moodsic from './components/moodsic'
 import Dicegame from './components/dicegame'
 import Datavis from './components/datavisualization'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ReactDOM from 'react-dom'
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import Experience from './components/experience';
 
 function App() {

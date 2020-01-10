@@ -1,13 +1,11 @@
 import React, { Component } from 'react'
-import * as Scroll from 'react-scroll';
-import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 export default class Navbar extends Component {
 
   render() {
     return (
 
       <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-        <a className="navbar-brand mr-0 mr-md-2" href="">
+        <a className="navbar-brand mr-0 mr-md-2" href="#">
           <img src="img/megumin.png" alt="UIUC Logo" width={24} height={32} className="d-inline-block align-top mr-2" />
           Matthew Tang
         </a>
