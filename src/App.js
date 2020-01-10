@@ -4,6 +4,10 @@ import './App.css';
 import Home from './components/home'
 import Projects from './components/projects'
 import Navbar from './components/navbar'
+import Smaps from './components/smaps'
+import Moodsic from './components/moodsic'
+import Dicegame from './components/dicegame'
+import Datavis from './components/datavisualization'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactDOM from 'react-dom'
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
@@ -20,6 +24,10 @@ function App() {
           id = "experience"
           ></Experience>
           <Projects></Projects>
+          <Smaps></Smaps>
+          <Moodsic></Moodsic>
+          <Datavis></Datavis>
+          <Dicegame></Dicegame>
           	</div>
       	</div>
       </div>

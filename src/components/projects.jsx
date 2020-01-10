@@ -11,10 +11,8 @@ export default class Projects extends Component {
             <p>
               These are some of the projects I've worked on:
             </p>
-            <a href="#" className="primary-btn text-uppercase">discover now</a>
           </div>
           <div className="col-lg-6 col-md-6 banner-right d-flex align-self-end">
-            <img className="img-fluid" src="img/smsmap.jpg" alt="" />
           </div>
         </div>
       </div>					

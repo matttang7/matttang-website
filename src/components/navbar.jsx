@@ -7,7 +7,7 @@ export default class Navbar extends Component {
     return (
 
       <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-        <a className="navbar-brand mr-0 mr-md-2" href="/cs357/fa2019/">
+        <a className="navbar-brand mr-0 mr-md-2" href="">
           <img src="img/megumin.png" alt="UIUC Logo" width={24} height={32} className="d-inline-block align-top mr-2" />
           Matthew Tang
         </a>
@@ -17,25 +17,12 @@ export default class Navbar extends Component {
         <div className="collapse navbar-collapse" id="navbar">
           <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-              <Link
-                activeClass="active"
-                to="experience"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                Experience
-              </Link>
             </li>
             <li className="nav-item ">
-              <a className="nav-link" href="img/nsf.jpg">Experience</a>
+              <a className="nav-link" href="Matthew_Tang_Resume.pdf">Resume</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/cs357/fa2019/exams/">Links</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/cs357/fa2019/references/">Contact Me</a>
+              <a className="nav-link" href="https://github.com/matttang7">Github</a>
             </li>
           </ul>
         </div>

@@ -10,7 +10,7 @@ export default class Experience extends Component {
               <h1>Experience</h1>
               <p>
                 National Science Foundation Research Experience for Undergraduates at IUPUI.
-                I worked on evaluating the performance of BERT, a new natural language processing model, in extracting key phrases from medical texts.
+                I worked on evaluating the performance of BERT, a relatively new natural language processing model, in extracting key phrases from medical texts.
               </p>
               <a href="https://arxiv.org/abs/1910.05786" className="primary-btn text-uppercase">My Research Paper</a>
             </div>
